@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Consulta Pokémon - PokeAPI</title>
+  <title>Pokédex</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Consulta Pokémon</h1>
-    <input type="text" id="pokemonName" placeholder="Digite o nome do Pokémon" />
-    <button id="fetchButton">Buscar Pokémon</button>
-    <div id="pokemonData" class="pokemon-data">
-      <!-- Dados do Pokémon serão exibidos aqui -->
-    </div>
-  </div>
-  
+  <h1>Pokédex</h1>
+  <input type="text" id="pokemonName" placeholder="Digite o nome do Pokémon" />
+  <button id="fetchButton">Buscar Pokémon</button>
+
+  <div id="pokemonData"></div>
+
+  <button id="showAbilitiesButton">Mostrar Habilidades</button>
+  <div id="pokemonAbilities"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
